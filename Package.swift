@@ -13,5 +13,5 @@ let package = Package(
 	],
 	targets: [
 		.binaryTarget(name: "MyUtils",
-		              path: "MyUtils.xcframework"),
+		              path: "MyUtils.xcframework")
 	])
