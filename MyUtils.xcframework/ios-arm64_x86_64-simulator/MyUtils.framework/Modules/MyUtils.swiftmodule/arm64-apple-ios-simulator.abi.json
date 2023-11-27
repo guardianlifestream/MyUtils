@@ -20,6 +20,27 @@
         "printedName": "MathUtils",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MathUtils",
+                "printedName": "MyUtils.MathUtils",
+                "usr": "s:7MyUtils04MathB0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7MyUtils04MathB0CACycfc",
+            "mangledName": "$s7MyUtils04MathB0CACycfc",
+            "moduleName": "MyUtils",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "Add",
             "printedName": "Add(numbers:)",
@@ -46,10 +67,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7MyUtils04MathB0C3Add7numbersS2id_tF",
-            "mangledName": "$s7MyUtils04MathB0C3Add7numbersS2id_tF",
+            "usr": "s:7MyUtils04MathB0C3Add7numbersS2id_tFZ",
+            "mangledName": "$s7MyUtils04MathB0C3Add7numbersS2id_tFZ",
             "moduleName": "MyUtils",
+            "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -61,8 +84,7 @@
         "moduleName": "MyUtils",
         "declAttributes": [
           "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       }
     ],
     "json_format_version": 8
@@ -71,7 +93,7 @@
     {
       "filePath": "\/Users\/akaile\/Development\/Utils\/MyUtils\/MathUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 189,
+      "offset": 216,
       "length": 1,
       "value": "0"
     }
