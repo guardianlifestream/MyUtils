@@ -1,0 +1,11 @@
+framework module MyUtils {
+  umbrella header "MyUtils.h"
+
+  export *
+  module * { export * }
+}
+
+module MyUtils.Swift {
+  header "MyUtils-Swift.h"
+  requires objc
+}
