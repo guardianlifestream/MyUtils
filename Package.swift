@@ -13,6 +13,5 @@ let package = Package(
 	],
 	targets: [
 		.binaryTarget(name: "MyUtils",
-		              url: "https://gc-ls-dev-mobile-app-update-metadata.s3.ap-southeast-2.amazonaws.com/MyUtils.xcframework.zip",
-		              checksum: "37b6dacf68253a13d56f148884858a02883d1eb812ab3a24efb05593c6dde883"),
+		              path: "MyUtils.xcframework"),
 	])
